@@ -1,4 +1,4 @@
-![Logo](IMAGE)
+![Logo](https://i.imgur.com/7JMkmfc.png)
 
 # AlonsoLeaderboards
 This plugin adds a new way to manage leaderboards!\
