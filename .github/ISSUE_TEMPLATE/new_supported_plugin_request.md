@@ -2,21 +2,23 @@
 name: New supported plugin request
 about: Request your plugin to be added to the supported plugins list
 title: ''
-labels: ''
+labels: 'New supported plugin request'
 assignees: ''
 
 ---
 
-NOTICE THAT THIS IS JUST A REQUEST. YOUR PLUGIN CAN NEVER BE ADDED.
+<-- NOTICE THAT THIS IS JUST A REQUEST. YOUR PLUGIN CAN NEVER BE ADDED. -->
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+<-- Link to spigotmc.org or mcmarket resource page -->
+**Resource link:**
+Link here
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+<-- Identifiers added by your plugin. Example: myplugin-stat -->
+**Identifiers your plugin add:**
+Identifier1
+Identifier2
+Identifier3
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+<-- What you plugin do? Example: My plugin adds coins to the game -->
+**Brief description of what your plugin do in general terms.**
+Description
