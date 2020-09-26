@@ -1,7 +1,7 @@
 ---
 name: New supported plugin request
 about: Request your plugin to be added to the supported plugins list
-title: ''
+title: 'Add my plugin to supported list: MyPluginName'
 labels: 'New supported plugin request'
 assignees: ''
 
