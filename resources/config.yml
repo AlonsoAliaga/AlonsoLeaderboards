@@ -1,0 +1,51 @@
+#  _   _                  _                _         _                      _
+#  /_\ | |___ _ _  ___ ___| |   ___ __ _ __| |___ _ _| |__  ___  __ _ _ _ __| |___
+#  / _ \| / _ \ ' \(_-</ _ \ |__/ -_) _` / _` / -_) '_| '_ \/ _ \/ _` | '_/ _` (_-<
+#  /_/ \_\_\___/_||_/__/\___/____\___\__,_\__,_\___|_| |_.__/\___/\__,_|_| \__,_/__/
+#                           by AlonsoAliaga
+#          https://www.spigotmc.org/resources/authors/281176/
+#
+
+Messages:
+  No-permission: "&cYou don't have permission to do this."
+  Reloaded: "&aSome messages and options have been reloaded. Other may require a restart!"
+  Invalid-player: "&cPlayer is not online!"
+  Create:
+    Invalid-leaderboard: "&cThere aren't leaderboards with identifier '{IDENTIFIER}' registered. Make sure the plugin that adds those leaderboard is installed correctly!"
+    Created-leaderboard: "&aYou successfully created a '{IDENTIFIER}' leaderboard for ranking {RANKING}."
+  Remove:
+    Removed-leaderboard: "&cYou removed successfully '{IDENTIFIER}' leaderboard for ranking {RANKING}."
+    Removed-head-leaderboard: "&cYou removed successfully head from '{IDENTIFIER}' leaderboard for ranking {RANKING}."
+    Removed-armorstand-leaderboard: "&cYou removed successfully armorstand from '{IDENTIFIER}' leaderboard for ranking {RANKING}."
+  Help:
+    Admin:
+    - "&9 /alonsoleaderboards armorstand <small/normal> &f- &bCreate armorstand for specific leaderboard"
+    - "&9 /alonsoleaderboards reload &f- &bReload configuration (Restart recommended)"
+    User: []
+
+Permissions:
+  #Permission to access the main command. Set to "none" to not require a permission.
+  Main: "none" #Example: "alonsoleaderboards.main"
+  Admin: "alonsoleaderboards.admin"
+  #Permission to place leaderboard signs/armorstands
+  Place: "alonsoleaderboards.place"
+  #Permission to break leaderboard signs/armorstands/heads
+  Break: "alonsoleaderboards.break"
+
+Options:
+  #Enable this if you have issues with the plugin and developer ask you to.
+  Debug-mode: false
+  #Default skin used for heads.
+  Default-skin: "AlonsoAliaga" #You can use "Opp" which is a Command block head.
+
+Updates:
+  #Auto update configuration? Enabling will delete comments.
+  Auto-update-configuration: true
+  #Check for updates? Recommended to keep it enabled.
+  Check-updates: true
+  #Notify updates when player with permission joins the server?
+  Notify-updates: true
+  #Permission required to receive update message.
+  Permission: "alonsoleaderboards.update"
+  #Message to send when update is found.
+  Message: "&9[AlonsoLeaderboards] &eA new update has been found! You are using version {CURRENT}. Download version {NEW} here &c{LINK}"
