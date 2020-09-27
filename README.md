@@ -7,7 +7,7 @@ If you are a developer, read DeveloperAPI section!\
 \
 **This plugin does NOT include a quest system.**
 ## Resources
-- [Spigot resource](https://www.spigotmc.org/resources/X/)
+- [Spigot resource](https://www.spigotmc.org/resources/84267/)
 - [Issue tracker](https://github.com/AlonsoAliaga/AlonsoLeaderboards/issues)
 - [Donate](https://paypal.me/AlonsoAliaga)
 - [bStats](https://bstats.org/plugin/bukkit/AlonsoLeaderboards)
