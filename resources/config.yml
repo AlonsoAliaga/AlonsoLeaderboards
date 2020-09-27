@@ -13,6 +13,7 @@ Messages:
   Create:
     Invalid-leaderboard: "&cThere aren't leaderboards with identifier '{IDENTIFIER}' registered. Make sure the plugin that adds those leaderboard is installed correctly!"
     Created-leaderboard: "&aYou successfully created a '{IDENTIFIER}' leaderboard for ranking {RANKING}."
+    Cancelled: "&cSign creation was cancelled by other plugin!"
   Remove:
     Removed-leaderboard: "&cYou removed successfully '{IDENTIFIER}' leaderboard for ranking {RANKING}."
     Removed-head-leaderboard: "&cYou removed successfully head from '{IDENTIFIER}' leaderboard for ranking {RANKING}."
